@@ -2,6 +2,7 @@
 using namespace std;
 
 int getFactorial(int x);
+int controlInput(int& x);
 
 int main() {
 	int n;
