@@ -9,7 +9,13 @@ int main() {
 	int n;
 	cout<<"Enter a number: "<<flush;
 	cin>>n;
+	while(!cin||n<0){
+		controlInput(n);
+	}
 	cout<<n<<"!="<<getFactorial(n)<<endl;	
+	
+
+
 	return 0;
 }
 
@@ -27,4 +33,6 @@ int controlInput(int& x){
 	cin.clear();
 	cin.ignore(numeric_limits<streamsize>::max(),'\n');
 
+	cout<<"Enter a correct value: "<<flush;
+	cin>>x;
 }
