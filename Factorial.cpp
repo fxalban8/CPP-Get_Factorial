@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int obtenerFactorial(int x);
+int getFactorial(int x);
 
 int main() {
 	int n;
