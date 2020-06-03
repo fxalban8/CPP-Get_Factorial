@@ -6,7 +6,8 @@ int getFactorial(int x);
 int main() {
 	int n;
 	cout<<"Enter a number: "<<flush;
-	cin>>n;	
+	cin>>n;
+	cout<<n<<"!="<<getFactorial(n)<<endl;	
 	return 0;
 }
 
